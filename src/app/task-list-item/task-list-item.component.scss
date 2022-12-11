@@ -1,5 +1,16 @@
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+  :last-child {
+    margin-right: 0;
+  }
+}
+
 .done {
-  color: gray;
+  color: lightgray;
   text-decoration: line-through;
 }
 
